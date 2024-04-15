@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    <div id="container">
+        <div id="lavagna">
+            <div>                
+                <label>Inserisci il primo numero : </label>
+                <input type="number" id="primoNumero" class="empty">
+            </div>
+
+            <div>
+                <label>Inserisci il secondo numero : </label>
+                <input type="number" id="secondoNumero" class="empty">
+            </div>
+            
+            <!-- operazioni -->
+            <div>
+                <button class="btn" onclick="addizione()"><i class="fas fa-plus"></i></button>
+                <button class="btn" onclick="sottrazione()"><i class="fas fa-minus"></i></button>
+                <button class="btn" onclick="moltiplicazione()"><i class="fas fa-times"></i></button>
+                <button class="btn" onclick="divisione()"><i class="fas fa-divide"></i></button>
+            </div>
+
+            <div>
+                <label><p id="risultato" class="empty">0</p></label>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
