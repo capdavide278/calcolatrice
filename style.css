@@ -16,10 +16,11 @@ header{
 }
 
 body{
-    background-image: url('scuola.avif');
+    /* background-image: url('scuola.avif'); */
     background-repeat: no-repeat;
     background-size: 1920px 960px;
     font-size: 25px;
+    background-color: black;
 }
 
 
